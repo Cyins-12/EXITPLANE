@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Lobby.unity
+    guid: 654a54c97e8f62d47919f0e32b0b0566
   - enabled: 1
     path: Assets/Scenes/ExitPlane.unity
     guid: 77314a2fd06740949b111d4ff95b60fc
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d8fb15b21a76734458f2e7a992ce4e8e, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 6a7547935d2ccdb4f85d9aa83f6fd8e5, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0f23cb58fa50090428f8a0e9658cbd52, type: 2}

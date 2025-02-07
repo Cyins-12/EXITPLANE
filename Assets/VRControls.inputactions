@@ -1,0 +1,45 @@
+{
+    "name": "VRControls",
+    "maps": [
+        {
+            "name": "TriggerPress",
+            "id": "22c4e326-586c-40f3-b6dc-1ba6bbc6435d",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "bd355dc4-a7f2-426d-b32b-d52bc12f5678",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e5b39dec-bdbb-4d4e-b2a9-dc7b13f47ccc",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dd9dff20-3b4b-4caa-bd1a-0edca2ebb56f",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
